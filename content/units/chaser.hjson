@@ -1,0 +1,37 @@
+type: "flyingUnit"
+name: "Chaser"
+description: "A tiny flying unit. Explodes on contact and spreads melting slag on enemies. Fragile but deadly in swarms."
+flying: true
+speed: 0.45
+maxSpeed: 5
+health: 50
+mass: 0.5
+range:200
+engineOffset: 4.5
+targetPriority: player
+shootCone: 30
+retreatPercent: 80
+weapon: {
+	name: seppuku
+  length: 0.5
+  width: 2
+  alternate: true
+  ignoreRotation: true
+ reload: 10
+	bullet: {
+		type: "BasicBulletType"
+		lifetime: 2.5
+		speed: 8.
+		damage: 4
+   recoil: 1 
+   killShooter: true
+		shootEffect: pulverizeRed
+   shootSound: explosion
+   splashDamageRadius: 12
+   splashDamage: 40
+   knockback: 1.5
+   status: melting
+   statusDuration: 300
+   collidesTeam: false
+	}
+}
