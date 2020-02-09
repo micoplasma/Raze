@@ -39,6 +39,6 @@ weapon: {
    incendAmount: 30
    incendSpread: 50
    fragBullets: 9
-   fragBullet: flame
+   fragBullet: basicFlame
 	}
 }
