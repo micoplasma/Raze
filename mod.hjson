@@ -1,0 +1,5 @@
+name: "Raze"
+author: "Micoplasma"
+description: "A Mindustry mod that adds different types of blocks and units. Chasers are based from ZkyLB's []Swarm Mod"
+version: "1"
+minGameVersion: "102"
