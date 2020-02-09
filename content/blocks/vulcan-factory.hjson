@@ -1,0 +1,30 @@
+type: UnitFactory
+name: Vulcan factory
+description: Produces heavy suicide bombers that razes areas.
+unitType: vulcan
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+produceTime: 900
+maxSpawn: 3
+itemCapacity: 30
+liquidCapacity: 80
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+        silicon/10
+        titanium/10
+        pyratite/5
+    ]
+  }
+}
+category: units
+research: chaser-factory
+requirements: [
+  lead/70
+  silicon/100
+  graphite/50
+  titanium/50
+]

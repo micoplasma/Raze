@@ -1,0 +1,19 @@
+type: MechPad    
+name: Spithre Mech Pad
+description: Transform into a quad-legged heavy buckshot mech.
+size: 3
+mech: spithre
+builtTime: 600
+hasPower: true
+consumes: {
+    power: 2
+}
+category: upgrade
+research: tau-mech-pad
+requirements: [
+	copper/200
+	lead/100
+	silicon/100
+	graphite/150
+	titanium/200
+]
