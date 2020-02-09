@@ -1,6 +1,6 @@
 type: UnitFactory
 name: Chaser factory
-description: Makes fast explosive swarm units.. Incorperates slag to fill the units with it..
+description: Makes fast explosive swarm units. Incorperates slag to fill the units with it.
 unitType: chaser
 size: 2
 hasPower: true
