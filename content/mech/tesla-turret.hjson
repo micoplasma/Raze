@@ -1,0 +1,21 @@
+type: PowerTurret
+name: Tesla Tower
+description: "By Thor's wrath!"
+health: 500
+size: 2
+reload: 120
+range: 250
+inaccuracy: 1
+rotatespeed: 0
+shootType: lightning
+shootCone: 360
+powerUse: 3
+shootEffect: lightningShoot
+shootSound: spark
+
+requirements: [
+  lead/40
+  copper/70
+]
+category: turret
+research: arc
