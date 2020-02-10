@@ -1,5 +1,5 @@
 type: "flyingUnit"
-name: "Vulcan"
+name: "Vulkan"
 description: "A heavy suicide bomber. Slow but explodes on contact setting the surrounding area to a blaze."
 flying: true
 speed: 0.2
@@ -29,8 +29,8 @@ weapon: {
    instantDisappear: true
 		shootEffect: flakExplosionBig
    shootSound: explosion
-   splashDamageRadius: 60
-   splashDamage: 90
+   splashDamageRadius: 40
+   splashDamage: 69
    knockback: 9
    status: burning
    statusDuration: 300
@@ -38,7 +38,7 @@ weapon: {
    incendChance: 50
    incendAmount: 30
    incendSpread: 50
-   fragBullets: 9
-   fragBullet: basicFlame
+   fragBullets: 6
+   fragBullet: pyraFlame
 	}
 }
