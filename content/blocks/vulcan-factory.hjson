@@ -5,7 +5,7 @@ unitType: vulcan
 size: 3
 hasPower: true
 hasItems: true
-hasLiquids: true
+
 produceTime: 900
 maxSpawn: 3
 itemCapacity: 30
@@ -27,4 +27,5 @@ requirements: [
   silicon/100
   graphite/50
   titanium/50
+  plastinium/50
 ]
