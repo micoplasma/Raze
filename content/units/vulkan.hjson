@@ -1,0 +1,58 @@
+type: "flyingUnit"
+name: "Vulkan"
+description: A heavy suicide bomber. Slow but explodes on contact setting the surrounding area to a blaze.
+flying: true
+speed: 0.18
+maxSpeed: 4
+health: 200
+mass: 2
+range:170
+engineOffset: 7
+engineSize: 4
+targetPriority: core
+shootCone: 30
+retreatPercent: 80
+weapon: {
+	name: kamikazi
+  length: 0.5
+  width: 2
+  alternate: true
+  ignoreRotation: true
+  reload: 10
+  	bullet: {
+	  	type: "BasicBulletType"
+  		lifetime: 2.5
+	  	speed: 8
+ 		 damage: 1
+     killShooter: true
+     instantDisappear: true
+  		shootEffect: flakExplosionBig
+     shootSound: explosion
+     splashDamageRadius: 16
+     splashDamage: 60
+     knockback: 9
+     collidesTeam: true
+       fragBullets: 1
+       fragBullet: {
+         type: BasicBulletType
+         lifetime: 3
+         instantDisappear: true
+         splashDamageRadius: 32
+         splashDamage: 35
+         knockback: 6
+         fragBullets: 1
+         fragBullet: {
+           type: BasicBulletType
+           lifetime: 3
+           instantDisappear: true
+           splashDamageRadius: 64
+           splashDamage: 25
+           knockback: 6
+           incendAmount: 30
+           incendSpread: 50
+           incendChance: 69
+
+        }
+     }
+	}
+}
