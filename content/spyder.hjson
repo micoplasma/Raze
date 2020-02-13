@@ -1,5 +1,5 @@
 type: Mech
-name: Spithre
+name: Spyder
 description: Quad-legged heavy unit that fires buckshots at enemies at distance. Needs to land and stabilize in order to fire its cannons but has limited movement while on ground form.
 speed: 0.2
 boostSpeed: 0.8
