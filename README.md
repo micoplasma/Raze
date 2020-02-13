@@ -5,7 +5,7 @@ Mindustry Mod.
 * Tiny flying suicide units which explodes on contact. Effective against units.
 #### Vulkan
 * Heavy suicide bomber. Ignites the ground upon exploding.
-#### Spithre
+#### Spyder
 * Prototype quad-legged mech that fires buckshots with high knockback
 
 
