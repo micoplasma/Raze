@@ -14,8 +14,8 @@ buildPower: 2
 itemCapacity: 100
 weaponOffsetY: 2.6
 weaponOffset: 3
-engineSize: 2
-engineOffset: 0
+engineSize: 3.5
+engineOffset: 3.5
 weapon: {
 	name: "potato-gun"
 	bullet: {
