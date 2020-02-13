@@ -1,7 +1,7 @@
 type: UnitFactory
-name: Vulcan factory
+name: Vulkan factory
 description: Produces heavy suicide bombers that razes areas.
-unitType: vulcan
+unitType: vulkan
 size: 3
 hasPower: true
 hasItems: true
