@@ -1,8 +1,8 @@
 type: MechPad    
-name: Spithre Mech Pad
+name: Spyder Mech Pad
 description: Transform into a quad-legged heavy buckshot mech.
 size: 3
-mech: spithre
+mech: spyder-mech
 builtTime: 600
 hasPower: true
 consumes: {
