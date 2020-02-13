@@ -1,0 +1,45 @@
+type: "Mech"
+name: "Spithre"
+description: "Quad-legged heavy unit that fires buckshots at enemies at distance. Needs to land and stabilize in order to fire its cannons but has limited movement while on ground form."
+speed: 0.2
+boostSpeed: 0.8
+mass: 4
+shake: 2
+health: 750
+hitsize: 2
+range: 180
+mineSpeed: 2
+drillPower: 2
+buildPower: 2
+itemCapacity: 100
+weaponOffsetY: 2.6
+weaponOffset: 3
+engineSize: 2
+engineOffset: 0
+weapon: {
+	name: "potato-gun"
+	bullet: {
+     type: "BasicBulletType"
+     lifetime: 35
+     damage: 3
+     speed:7
+     knockback: 80
+     bulletLength: 16
+     bulletWidth: 4
+     shootSmoke: shootSmokeSmall
+     shootEffect: shootSmall
+     hitEffect: hitBulletSmall
+	}
+	reload: 30
+	shots: 4
+  spacing: 1
+	alternate: false
+	inaccuracy: 1
+	shake: 0.5
+	recoil: 3
+	length: 4.8
+	width: 2
+	velocityRnd: 0.1
+  ejectEffect: shellEjectSmall
+  shootSound: shoot
+}
