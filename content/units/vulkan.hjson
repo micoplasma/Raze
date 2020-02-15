@@ -4,14 +4,13 @@ description: A heavy suicide bomber. Slow but explodes on contact setting the su
 flying: true
 speed: 0.18
 maxSpeed: 4
-health: 200
+health: 300
 mass: 2
-range:170
+range: 50
 engineOffset: 7
 engineSize: 4
-targetPriority: core
 shootCone: 30
-retreatPercent: 80
+retreatPercent: 90
 weapon: {
 	name: kamikazi
   length: 0.5
@@ -30,6 +29,8 @@ weapon: {
      shootSound: explosion
      splashDamageRadius: 16
      splashDamage: 60
+     status: burning
+     statusDuration: 900
      knockback: 9
      collidesTeam: true
        fragBullets: 1
