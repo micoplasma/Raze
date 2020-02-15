@@ -6,7 +6,7 @@ size: 3
 hasPower: true
 hasItems: true
 
-produceTime: 900
+produceTime: 948
 maxSpawn: 3
 itemCapacity: 30
 liquidCapacity: 80
@@ -15,8 +15,8 @@ consumes: {
   items: {
     items: [
         silicon/10
-        titanium/10
-        pyratite/5
+        titanium/12
+        pyratite/6
     ]
   }
 }
