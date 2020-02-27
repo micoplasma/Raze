@@ -7,7 +7,8 @@ Mindustry Mod.
 * Heavy suicide bomber. Ignites the ground upon exploding.
 #### Spyder
 * Prototype quad-legged mech that fires buckshots with high knockback
-.
-.
-.
+
+
+
+
 Special thanks to the major contributors: ZkyLB and EyeOfDarkness
