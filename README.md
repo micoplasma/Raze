@@ -1,3 +1,4 @@
+![logo](preview.png)
 # Raze
 Mindustry Mod.
 ## What's new
