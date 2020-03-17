@@ -1,0 +1,101 @@
+type: ItemTurret
+name: Viper's Turret
+description: Bigass turret that clears the skies
+health: 2400
+size: 4
+reload: 120
+range: 500
+ammoUseEffect: shellEjectBig
+ammoEjectBack: 10
+inaccuracy: 1
+cooldown: 0.015
+restitution: 0.01
+recoil: 4
+rotatespeed: 3
+shootCone: 30
+shots: 1
+spread: 30
+shootSound: artillery
+shootShake: 3
+targetGround: False
+ammoPerShot: 5
+ammo: {
+  titanium: {
+    type: FlakBulletType
+	explodeRange: 0
+	bulletShrink: 0
+    speed: 9
+	damage: 1000
+    splashDamage: 200
+    splashDamageRadius: 200
+    knockBack: 10
+    bulletWidth: 15
+    bulletHeight: 20
+    lifetime: 90
+    hitEffect: flakExplosion
+    shootEffect: shootBig
+    smokeEffect: nuclearsmoke
+    ammoMultiplier: 1
+    fragBullets: 40
+    fragBullet:{
+		type: BasicBulletType
+		damage: 10
+		lifetime: 30
+		speed: 6
+		}
+  	}
+	pyratite: {
+		type: FlakBulletType
+		explodeRange: 0
+		bulletShrink: 0
+    	speed: 9
+		damage: 1000
+	    splashDamage: 200
+	    splashDamageRadius: 200
+	    knockBack: 10
+	    bulletWidth: 15
+	    bulletHeight: 20
+	    lifetime: 90
+	    hitEffect: flakExplosion
+	    shootEffect: shootBig
+	    smokeEffect: nuclearsmoke
+	    ammoMultiplier: 1
+		incendChance: 1
+		incendSpread: 100
+		incendAmount: 69
+	}
+	thorium: {
+		type: FlakBulletType
+		explodeRange: 0
+		bulletShrink: 0
+    	speed: 9
+		damage: 1500
+	    splashDamage: 300
+	    splashDamageRadius: 200
+	    knockBack: 10
+	    bulletWidth: 15
+	    bulletHeight: 20
+	    lifetime: 90
+	    hitEffect: flakExplosion
+	    shootEffect: shootBig
+	    smokeEffect: nuclearsmoke
+	    ammoMultiplier: 1
+		fragBullets: 40
+		fragBullet:{
+			type: BasicBulletType
+			damage: 10
+			lifetime: 30
+			speed: 6
+			}
+
+	}
+}
+requirements: [
+  metaglass/200
+  graphite/300
+  titanium/300
+  thorium/400
+  surge-alloy/200
+]
+category: turret
+research: ripple
