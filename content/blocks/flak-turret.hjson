@@ -18,16 +18,16 @@ spread: 30
 shootSound: artillery
 shootShake: 3
 targetGround: False
-ammoPerShot: 5
+ammoPerShot: 2
 ammo: {
   titanium: {
     type: FlakBulletType
 	explodeRange: 0
 	bulletShrink: 0
     speed: 9
-	damage: 1000
-    splashDamage: 200
-    splashDamageRadius: 200
+	damage: 500
+    splashDamage: 120
+    splashDamageRadius: 160
     knockBack: 10
     bulletWidth: 15
     bulletHeight: 20
@@ -39,7 +39,7 @@ ammo: {
     fragBullets: 40
     fragBullet:{
 		type: BasicBulletType
-		damage: 10
+		damage: 7
 		lifetime: 30
 		speed: 6
 		}
@@ -49,9 +49,9 @@ ammo: {
 		explodeRange: 0
 		bulletShrink: 0
     	speed: 9
-		damage: 1000
-	    splashDamage: 200
-	    splashDamageRadius: 200
+		damage: 500
+	    splashDamage: 100
+	    splashDamageRadius: 160
 	    knockBack: 10
 	    bulletWidth: 15
 	    bulletHeight: 20
@@ -69,9 +69,9 @@ ammo: {
 		explodeRange: 0
 		bulletShrink: 0
     	speed: 9
-		damage: 1500
-	    splashDamage: 300
-	    splashDamageRadius: 200
+		damage: 750
+	    splashDamage: 150
+	    splashDamageRadius: 180
 	    knockBack: 10
 	    bulletWidth: 15
 	    bulletHeight: 20
