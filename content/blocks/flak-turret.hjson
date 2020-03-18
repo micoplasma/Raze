@@ -34,7 +34,7 @@ ammo: {
     lifetime: 90
     hitEffect: flakExplosion
     shootEffect: shootBig
-    smokeEffect: nuclearsmoke
+    smokeEffect: shootBigSmoke
     ammoMultiplier: 1
     fragBullets: 40
     fragBullet:{
@@ -58,7 +58,7 @@ ammo: {
 	    lifetime: 90
 	    hitEffect: flakExplosion
 	    shootEffect: shootBig
-	    smokeEffect: nuclearsmoke
+	    smokeEffect: shootBigSmoke
 	    ammoMultiplier: 1
 		incendChance: 1
 		incendSpread: 100
@@ -77,8 +77,8 @@ ammo: {
 	    bulletHeight: 20
 	    lifetime: 90
 	    hitEffect: flakExplosion
-	    shootEffect: shootBig
-	    smokeEffect: nuclearsmoke
+	    shootEffect: shootBig2
+	    smokeEffect: shootBigSmoke
 	    ammoMultiplier: 1
 		fragBullets: 40
 		fragBullet:{
@@ -88,7 +88,66 @@ ammo: {
 			speed: 6
 			}
 
-	}
+        }
+	surge-alloy: {
+
+		type: FlakBulletType
+
+		speed: 7
+
+		bulletShrink: 0
+
+		explodeRange: 1
+
+		damage: 1200
+
+		splashDamage: 100
+
+		splashDamageRadius: 100
+
+		bulletWidth: 18
+
+		bulletLength: 18
+
+		lifetime: 100
+
+		hitEffect: impactcloud
+
+		shootEffect: shootBig2
+
+		smokeEffect: shootBigSmoke
+
+		ammoMultiplier: 1
+
+		fragBullets: 40
+
+		fragVelocityMin: 0.1
+
+		fragVelocityMax: 1
+
+		fragBullet: {
+
+			type: BasicBulletType
+
+			bulletShrink: 0
+
+			speed: 4
+
+			drag: 0.03
+
+			damage: 2
+
+			bulletLength: 5
+
+			bulletWidth: 10
+
+			lifetime: 180
+
+			pierce: true
+
+			}
+
+        }
 }
 requirements: [
   metaglass/200
