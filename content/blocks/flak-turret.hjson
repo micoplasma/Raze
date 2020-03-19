@@ -1,16 +1,16 @@
 type: ItemTurret
-name: Viper's Turret
-description: Bigass turret that clears the skies
+name: Viper Turret
+description: Large heavy turret that fires large flak rounds to that decimates the skies. Has a wide range but is slow to fire and rather expensive to build.
 health: 2400
 size: 4
-reload: 120
+reload: 180
 range: 500
 ammoUseEffect: shellEjectBig
 ammoEjectBack: 10
 inaccuracy: 1
 cooldown: 0.015
 restitution: 0.01
-recoil: 4
+recoil: 5
 rotatespeed: 3
 shootCone: 30
 shots: 1
@@ -25,8 +25,8 @@ ammo: {
 	explodeRange: 0
 	bulletShrink: 0
     speed: 9
-	damage: 500
-    splashDamage: 120
+	damage: 350
+    splashDamage: 110
     splashDamageRadius: 160
     knockBack: 10
     bulletWidth: 15
@@ -36,10 +36,10 @@ ammo: {
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 1
-    fragBullets: 40
+    fragBullets: 25
     fragBullet:{
 		type: BasicBulletType
-		damage: 7
+		damage: 3
 		lifetime: 30
 		speed: 6
 		}
@@ -49,7 +49,7 @@ ammo: {
 		explodeRange: 0
 		bulletShrink: 0
     	speed: 9
-		damage: 500
+		damage: 350
 	    splashDamage: 100
 	    splashDamageRadius: 160
 	    knockBack: 10
@@ -69,7 +69,7 @@ ammo: {
 		explodeRange: 0
 		bulletShrink: 0
     	speed: 9
-		damage: 750
+		damage: 600
 	    splashDamage: 150
 	    splashDamageRadius: 180
 	    knockBack: 10
@@ -99,11 +99,11 @@ ammo: {
 
 		explodeRange: 1
 
-		damage: 1200
+		damage: 1000
 
-		splashDamage: 100
+		splashDamage: 115
 
-		splashDamageRadius: 100
+		splashDamageRadius: 150
 
 		bulletWidth: 18
 
@@ -119,7 +119,7 @@ ammo: {
 
 		ammoMultiplier: 1
 
-		fragBullets: 40
+		fragBullets: 60
 
 		fragVelocityMin: 0.1
 
